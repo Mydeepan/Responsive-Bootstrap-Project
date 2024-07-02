@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ body{
+   background-image: linear-gradient(whitesmoke,white);
+   overflow: hidden;
+   height: 100vh;
+  }
+  
+.btn{
+
+   margin-left: 50%;
+}
+.tr{
+    text-align: center;
+}
+@media screen and (max-width:767px){
+    .nav-stacked{
+        display: none;
+    }
+}
+
+</style>
+   
+</head>
+
+<body>
+   <nav  class="navbar navbar-default navbar-fixed-top col-sm"  >
+    <div class="container-fluit">
+        <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+        </button>
+        <a href="#" class="navbar-brand" style="font-size: 5rem">Mobiles</a>
+    </div>
+    <div class=" collapse navbar-collapse" id="nav">
+        <ul  class="nav navbar-nav">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="./contact src/product.html">Product</a></li>
+            <li><a href="">Proflie</a></li>
+            
+        </ul>
+        <ul class=" nav navbar-nav navbar-right" style="margin-right: 10px;" >
+            <li><a href="./contact src/login-page.html"><span class="fa fa-user"></span> About</a></li>
+            <li><a href="./contact src/login-page.html"><span class="fa fa-sign-in"></span> log-in</a></li>
+        </ul>
+    </div>
+    </div>
+   </nav>
+<div class="container-fluit" style="margin-top: 70px;">
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="nav nav-stacked " >
+                <li><a href="#basic.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href=""><i class="fa fa-id-card"></i> Profile</a></li>
+                <li><a href="./contact src/product.html" <i class="fa fa-shopping-bag"></i> Product</a></li>
+            </ul>
+            <hr>
+            <ul class="nav nav-stacked">
+                <li><a href=""><i class="fa fa-gear"></i> Setting</a></li>
+                <li><a href="./contact src/login-page.html"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="./contact src/login-page.html"><i class="fa fa-sign-in"></i> log-in</a></li>
+            </ul>
+        </div>
+   
+    
+     <div class="col-md-6">
+        <h3><i class="fa fa-shopping-bag"> Product</i></h3>
+        <form action="#" >
+           <div class="class="form-group"">
+            <label for="Pro" class="control-label">Product Name</label>
+            <input type="text" class="form-control" id="Pro" placeholder="Enter product name" required>
+             </div>
+             <br>
+           <div class="class="form-group"">
+            <label for="Pro" class="control-label">Product price</label>
+            <input type="text" class="form-control" id="Pro" placeholder="Enter price" required>
+             </div>
+          </form>
+          <br>
+          <button class="btn btn-success"><i class="fa fa-search"> Search</i></button>
+        </div>
+          <br>
+        <div class="col-md-8" style="margin-top: 30px;">
+            <table class="table table-bordered table-responsive text-center">
+                <tr class="tr1">
+                    <th>S.no</th>
+                    <th>Mobiles name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>available</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Redmi</td>
+                    <td>20,999</td>
+                    <td>1</td>
+                    <td><i class="fa fa-check"></i> Available</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Realme</td>
+                    <td>22,999</td>
+                    <td>1</td>
+                    <td><i class="fa fa-check"></i> Available</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Oppo</td>
+                    <td>25,999</td>
+                    <td>1</td>
+                    <td><i class="fa fa-close"></i> Unavailable</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Vivo</td>
+                    <td>28,999</td>
+                    <td>1</td>
+                    <td><i class="fa fa-check"></i> Available</td>
+                </tr>
+            </table>
+        </div>   
+    </div>
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+       
+</body>
+
+</html>

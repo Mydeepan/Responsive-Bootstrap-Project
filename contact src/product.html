@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: linear-gradient(whitesmoke, white);
+
+        }
+
+        #para {
+
+            color: red;
+            animation: forwards ease-in-out para 1s;
+            transition: 1s;
+
+        }
+        
+        @keyframes para {
+            0% {
+                transform: translateX(1000px);
+            }
+
+        }
+        #container{
+            height: fit-content;
+        }
+        #para:hover {
+
+            cursor: pointer;
+        }
+
+        .btn {
+            background-color: rgb(255, 64, 64);
+            font-size: 2rem;
+            border-radius: 20px;
+            transition: all 0.5s;
+            color: rgb(0, 1, 1);
+            animation: forwards ease-in-out btn 1s;
+        }
+
+        .btn:hover {
+
+            color: rgb(249, 246, 246);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" ">
+    <div class=" container-fluit">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+            </button>
+            <a href="#" class="navbar-brand" style="font-size: 5rem">Mobiles</a>
+        </div>
+        <div class=" collapse navbar-collapse" id="nav">
+            <ul class="nav navbar-nav navbar-right" id="nav">
+                <li><a href="../basic.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href=""><i class="fa fa-id-card"></i> Profile</a></li>
+                <li><a href="./product.html" <i class="fa fa-shopping-bag"></i> Product</a></li>
+            
+                <li><a href=""><i class="fa fa-gear"></i> Setting</a></li>
+                <li><a href="./login-page.html"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="./login-page.html"><i class="fa fa-sign-in"></i> log-in</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container" id="container" style="margin-top: 60px;">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h2>Moblies</h2>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#redmi">Redmi</a></li>
+                    <li><a data-toggle="tab" href="#realme">Realme</a></li>
+                    <li><a data-toggle="tab" href="#oppo">Oppo</a></li>
+                    <li><a data-toggle="tab" href="#vivo">Vivo</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="redmi" class="tab-pane fade in active">
+                        <h3>Redmi</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/u/p/-original-imagd7gszvwcsmgr.jpeg?q=70&crop=false"
+                                alt="Redmi">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">Redmi note 11 pro +5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">₹21000.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">₹20000.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:6GB ,Rtorage:128GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:108MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;The latest Snapdragon 695 5G SoC ensures superior
+                            performance and gaming experience. The device is future-ready with
+                            support for 7 5G bands.The latest Snapdragon 695 5G SoC ensures superior performance and
+                            gaming experience. The device is future-ready with
+                            support for 7 5G bands.The three cameras work together to bring out the best images in all
+                            scenarios The dual stereo speakers setup brings out
+                            loud and balanced audio from the device.</p>
+                        <br>
+                        <h3>Redmi</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/q/9/-original-imaghkvuf76hy8gu.jpeg?q=70&crop=false"
+                                alt="Redmi">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">Redmi note 12 pro +5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">₹22000.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">₹19,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:8GB ,Rtorage:256GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:108MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;The latest Snapdragon 695 5G SoC ensures superior
+                            performance and gaming experience.
+                            The device is future-ready with
+                            support for 7 5G bands.The latest Snapdragon 695 5G SoC ensures superior performance and
+                            gaming experience. The
+                            device is future-ready with
+                            support for 7 5G bands.The three cameras work together to bring out the best images in all
+                            scenarios The dual stereo
+                            speakers setup brings out
+                            loud and balanced audio from the device.</p>
+                    </div>
+                    <div id="realme" class="tab-pane fade ">
+                        <h3>Realme</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://m.media-amazon.com/images/I/81WimZLWH1L._SX569_.jpg" alt="Redmi">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">Realme narzo 60X 5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">27999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">22,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:6GB ,Rtorage:128GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:64MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;You can enjoy an immersive display on the 120 Hz curved
+                            vision display of the realme Pro 5G smartphone. Featuring a 100
+                            MP OIS ProLight camera, this smartphone allows you to capture memories that you can cherish
+                            for a lifetime. This
+                            smartphone is powered by the Dimensity 7050 5G chipset for fast and efficient performance.
+                            The 67 W SUPERVOOC charge of
+                            this smartphone charges your phone from 0-50% in about 18 minutes so that you do not have to
+                            wait long for it to charge.
+                            With up to 12 GB + 12 GB of Dynamic RAM.</p>
+                    </div>
+                    <div id="oppo" class="tab-pane fade ">
+                        <h3>Oppo</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://m.media-amazon.com/images/I/71ZRdHtkm6L._SX569_.jpg" alt="Redmi">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">Oppo F25 Pro 5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">27999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">22,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:8GB ,Rtorage:128GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:64MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;Ultra-clear Video Front and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust Resistance.
+                        </p>
+                    </div>
+                    <div id="vivo" class="tab-pane fade ">
+                        <h3>Vivo</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://m.media-amazon.com/images/I/51FeWzn8ZOL._SX569_.jpg" alt="Vivo">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">Vivo Y200 5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">28999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">25,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:8GB ,Rtorage:256GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:64MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;Ultra-clear Video Front and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust Resistance.
+                        </p>
+                        <br>
+                        <h3>Vivo</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/s/x/-original-imagzjhwaaewgj8r.jpeg?q=70&crop=false"
+                                alt="Vivo">
+                        </div>
+
+                        <p id="para" style="font-size: 3.5rem;">vivo T2x 5G (Aurora Gold)</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">20,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">15,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:8GB ,Rtorage:256GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:64MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;Ultra-clear Video Front and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust
+                            Resistance.Ultra-clear Video Front
+                            and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust Resistance.
+                        </p>
+                        <br>
+                        <h3>Vivo</h3>
+                        <div class="col-md-4">
+                            <img id="img" class="img-responsive "
+                                src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/u/8/-original-imagugptptuacajg.jpeg?q=70&crop=false"
+                                alt="Vivo">
+                        </div>
+
+                        <p style="color: red; font-size: 3.5rem;">Vivo Y200 5G</p>
+                        <p style=" font-size: 1.5rem;">MRP:<span
+                                style="color: red; text-decoration: line-through;">28999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Off.price: <span style="color: red;">25,999.00</span> </p>
+                        <p style="font-size: 1.5rem;">Ram:8GB ,Rtorage:256GB</p>
+                        <p style="font-size: 1.5rem;"> Camera:64MP</p>
+                        <p style="font-size: 1.5rem;"> Battery:5000mah</p>
+                        <button class="btn">Order now</button>
+                        <h4>Description</h4>
+                        <p class="text-justify">&nbsp;&nbsp;Ultra-clear Video Front and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust
+                            Resistance.Ultra-clear Video Front and Back
+                            120 Hz Borderless AMOLED Display 67 W SUPERVOOC flash charge IP65 Water and Dust Resistance.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
